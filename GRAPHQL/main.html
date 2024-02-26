@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="login">
+        <h1>GraphQL</h1>
+        <input type="text" id="UserName" name="UserName" placeholder="Type your username here"><br><br>
+        <input type="Password" id="Password" name="Password" placeholder="Type your password here"><br><br>
+        <input type="submit" id="submit" value="Login" class="sbbtt">
+    </div>
+
+    <div class="profile" id="profile">
+        <img id="propic" class="propic" src="img/avatar-1577909_640.png" alt="">
+        <li class="userinfo">
+            <ul id="firstName" for="propic">First Name:</ul>
+            <ul id="lastName" for="propic">Last Name:</ul>
+            <ul id="email" for="propic">Email:</ul>
+        </li>
+        <li class="taskinfo">
+            <ul id="totalxp" class="totalxp">Total XP:</ul>
+            <ul id="comptasks" class="comptasks">Completed Tasks:</ul>
+        </li>
+        <button id="logoff" class="btnimg" type="submit">
+            <img class="btnimg" src="img/logout-8.png" alt=""/>
+        </button>
+    </div>   
+
+    <div class="graphs">
+
+        <h1>Total Xp Proggres</h1>
+
+        <svg version="1.2" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" class="graph"  role="img">
+
+            <g class="grid x-grid" id="xGrid">
+            </g>
+
+            <g class="grid y-grid" id="yGrid">
+            </g>
+ 
+            <g class="labels x-labels" id="xlabels">
+            </g>
+                <text x="0" y="200" class="label-title">Xp/kb</text>
+            <g class="labels y-labels" id="ylabels">
+            </g>
+
+            <g class="data" data-setname="Data" id="data">
+            </g>
+        </svg>
+        
+        <h1>Audit Ratio</h1>
+        <h2 id="totalaudits">Total Audits:</h2>
+    
+
+        <svg width="500" height="600" xmlns="http://www.w3.org/2000/svg" class="auditratio">
+            <rect id="uprec" width="250" height="500" x="125"rx="20" ry="20" fill="blue" />
+            <text id="up" class="txtauditratio" x="250" y="250" stroke="#000000" stroke-width="1px">0</text>
+            <text class="txt" x ="250" y="550" stroke="#000000" stroke-width="1px">Audits Done</text>
+        </svg>
+        <svg width="500" height="600" xmlns="http://www.w3.org/2000/svg" class="auditratio">
+            <rect id="downrec" width="250" height="500" x="125"rx="20" ry="20" fill="red" />
+            <text id="down" class="txtauditratio" x ="250" y="250" stroke="#000000" stroke-width="1px" >0</text>
+            <text class="txt" x ="250" y="550" stroke="#000000" stroke-width="1px">Audits Recived</text>
+        </svg>
+    </div>
+    
+    
+</body>
+</html> 
+
+<script src="main.js"></script> 

@@ -1,0 +1,151 @@
+.login{
+    margin: auto;
+    width: 540px;
+    border: 3px solid green;
+    text-align: center;
+    display: block;
+    padding: 50px;
+    margin-top: auto;
+}
+
+.sbbtt{
+    width: 150px;
+}
+
+.profile{
+    padding: 30px;
+    margin-left: auto;
+    margin-right: auto;
+    display: none;
+    background-color: rgb(227, 251, 254);
+    outline: auto;
+    outline-color: aqua;
+    width: 1100px;
+    height: 200px;
+}
+
+.propic{
+    width: 150px;
+    height: 150px;
+    padding: 20px;
+}
+
+.userinfo{
+    padding: 20px;
+    text-align: left;
+    display: inline-block;
+    width: 400px;
+    height: 150px;
+    font-size: 20px;
+    vertical-align:top;
+}
+.taskinfo{
+    padding: 0;
+    text-align: left;
+    display: inline-block;
+    width: 350px;
+    height: 150px;
+    font-size: 30px;
+    padding: 20px;
+    vertical-align:top;
+}
+
+.graphs{
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    padding-bottom: 80px;
+    width: 1100px;
+    height: 1300px;
+    display: inline-block;
+    outline: auto;
+    outline-color: rgb(0, 115, 255);
+    display: none;
+}
+
+ul{
+    padding-left: 30px;
+}
+
+body {
+font-family: 'Open Sans', sans-serif;
+}
+
+.graph .labels.x-labels {
+text-anchor: middle;
+}
+
+.graph .labels.y-labels {
+text-anchor: end;
+}
+
+
+.graph {
+height: 500px;
+width:1100px;
+background-color: azure;
+padding-bottom: 50px;
+}
+
+.graph .grid {
+stroke: #ccc;
+stroke-dasharray: 0;
+stroke-width: 1;
+}
+
+.labels {
+font-size: 13px;
+}
+
+.label-title {
+font-weight: bold;
+text-transform: uppercase;
+font-size: 12px;
+fill: black;
+}
+
+.data {
+stroke-width: 1; 
+}
+
+.datalabel{
+    fill: rgba(255, 0, 0, 0)
+}
+
+.datalabel:hover{
+    
+    fill: darkblue;
+}
+
+.auditratio{
+    padding-top: 50px;
+    display: inline-block;
+    margin: auto;
+}
+
+.txtauditratio{
+    text-anchor:middle;
+    fill: whitesmoke;
+    margin: auto;
+    font-size: 50px;
+}
+
+.txt{
+    fill: white;
+    font-size: 25px;
+    text-anchor:middle;
+}
+
+.btnimg{
+    height: 50px;
+    width: 50px;
+    padding: 0;
+    border: none;
+    background: none;
+}
+
+.btnimg:hover{
+    border-radius: 50%;
+    background-color: rgb(255, 203, 203);
+}
+
