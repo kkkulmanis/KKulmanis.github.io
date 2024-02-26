@@ -257,6 +257,9 @@ function createXpGraph(months,datearr,taskarr,xparr, firstmonth, totalxp, firsty
             l.setAttribute('y', ypos)
             l.style.height = "100px"
             l.classList.add("datalabel")
+            if(i>taskarr.length/2){    
+                l.setAttribute('text-anchor',"end")
+            }
             document.getElementById("data").appendChild(l)
             prevl = l
 
